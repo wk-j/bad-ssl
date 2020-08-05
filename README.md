@@ -8,6 +8,6 @@ http -v https://expired.badssl.com
 http --verify no -v https://expired.badssl.com
 
 
-curl -v https://google.com
-http -v -L https://google.com
+curl -v -L https://google.com
+http -v https://google.com
 ```
